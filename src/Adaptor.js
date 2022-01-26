@@ -36,7 +36,7 @@ export function execute(...operations) {
 }
 
 /**
- * Creates a fictional resource in a fictional destination system using a POST request
+ * Creates a fictional resource testing in a fictional destination system using a POST request
  * @public
  * @example
  * create("/endpoint", {"foo": "bar"})
@@ -52,6 +52,7 @@ export function create(path, params, callback) {
     params = expandReferences(params)(state);
 
     const { baseUrl, username, password } = state.configuration;
+    const test = password;
 
     const url = `${baseUrl}/${path}`;
     const auth = { username, password };
