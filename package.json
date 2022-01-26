@@ -1,6 +1,6 @@
 {
   "name": "@openfn/language-devtools",
-  "version": "1.5.19",
+  "version": "1.5.20",
   "description": "An adaptor template for OpenFn",
   "main": "lib/index.js",
   "scripts": {
