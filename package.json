@@ -1,5 +1,5 @@
 {
-  "name": "@openfn/language-template",
+  "name": "@openfn/language-devtools",
   "version": "1.5.16",
   "description": "An adaptor template for OpenFn",
   "main": "lib/index.js",
